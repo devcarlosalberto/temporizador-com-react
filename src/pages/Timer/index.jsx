@@ -24,6 +24,8 @@ export function Timer() {
             "https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true"
         )
     )
+    
+    backgroundAudioRef.current.loop = true
 
     const [isActive, setIsActive] = useState(false)
 
